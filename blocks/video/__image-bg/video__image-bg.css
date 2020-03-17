@@ -1,0 +1,8 @@
+.video__image-bg {
+  height: 100%;
+  min-height: 192px;
+  width: 100%;
+  opacity: 0.5;
+  border-radius: 5px;
+  display: block;
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
+  font-weight: bold;
+} 
+
+.page {
+  min-width: 320px;
+  max-width: 1440px; 
+  margin: 0 auto;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  color: #FFFFFF;
+  background: #2A2C2F;
+  overflow: hidden;
+  text-rendering: optimizeLegibility; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}

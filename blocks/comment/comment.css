@@ -1,0 +1,39 @@
+@import url(../comment/__quote/comment__quote.css);
+@import url(../comment/__image/comment__image.css);
+@import url(../comment/__author/comment__author.css);
+
+.comment {
+    margin: 0 auto 48px; 
+    display: flex;
+    flex-direction: column; 
+}
+
+@media (max-width: 1023px) {
+    .comment:first-of-type {
+         margin-top: 48px;
+    }
+
+    .comment:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .comment {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 65px 9px 0;
+        width: calc(100% / 3);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

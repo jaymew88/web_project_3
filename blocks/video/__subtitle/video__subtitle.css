@@ -1,0 +1,23 @@
+.video__subtitle {
+  font-weight: normal;
+  font-size: 0.875em;
+  margin: 0 0 16px 16px;
+}
+
+@media (min-width: 375px) {
+  .video__subtitle {
+    margin-left: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .video__subtitle {
+    margin: 0 0 35px 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .video__subtitle {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,41 @@
+/* Video TEXT positioning needs to DONE!!!! */
+@import url(../video/__container/video__container.css);
+@import url(../video/__item/video__item.css);
+@import url(../video/__image-bg/video__image-bg.css);
+@import url(../video/__wrapper/video__wrapper.css);
+@import url(../video/__icon-play/video__icon-play.css);
+@import url(../video/__duration/video__duration.css);
+@import url(../video/__title/video__title.css);
+@import url(../video/__subtitle/video__subtitle.css);
+
+.video {
+    width: calc(100% - 2em);
+    margin: 65px auto 0;
+}
+
+@media (min-width: 768px) {
+    .video {
+        width: calc(100% - 3em);
+    }
+}
+
+@media (min-width: 1024px) {
+    .video {
+        width: calc(100% - 6em);
+    }
+}
+
+@media (min-width: 1440px) {
+    .video {
+        width: calc(100% - 16em);
+    }
+}
+
+
+
+
+
+
+
+    
+    

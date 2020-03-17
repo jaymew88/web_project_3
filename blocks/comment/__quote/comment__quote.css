@@ -1,0 +1,14 @@
+.comment__quote {
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 23px;
+  margin: 0 auto;
+  order: 2;
+}
+
+@media (min-width: 1024px) {
+  .comment__quote {
+      font-size: 0.875em;
+      line-height: 24px;
+  }
+}

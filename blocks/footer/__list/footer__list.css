@@ -1,0 +1,32 @@
+.footer__list {
+  font-weight: normal;
+  font-size: 1.5em;
+  list-style: none;
+  padding: 0;
+  margin: 64px 0 48px 16px;
+}
+
+@media (min-width: 768px) {
+  .footer__list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 35%;
+      margin: 0;
+      font-size: 1em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer__list {
+    font-size: 1.5em;
+    
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer__list {
+    width: 30%;
+    }
+}
+

@@ -1,0 +1,32 @@
+.video__item { 
+  border-radius: 5px;
+  position: relative;
+  background: #000000;
+  overflow: hidden;
+  opacity: 1;
+  transition: opacity .5s ease-in-out;
+}
+
+.video__item:hover {
+  opacity: .4;
+}
+
+@media (max-width: 767px) {
+  .video__item:first-of-type {
+      margin-bottom: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .video__item:first-of-type {
+      margin-right: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .video__item {
+    min-height: 288px;
+  }
+}
+
+

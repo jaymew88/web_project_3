@@ -1,0 +1,12 @@
+.lead__image {
+  width: 100%;
+  display: block;
+  margin: 32px auto 0;
+}
+
+@media (min-width: 768px) {  
+  .lead__image {
+      margin: 65px auto 0;
+  }
+}
+

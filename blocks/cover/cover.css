@@ -1,0 +1,30 @@
+@import url(../cover/__wrapper/cover__wrapper.css);
+@import url(../cover/__image-bg/cover__image-bg.css);
+@import url(../cover/__title/cover__title.css);
+@import url(../cover/__subtitle/cover__subtitle.css);
+
+.cover {
+    max-width: 74em;
+    margin: 64px auto 0;
+    position: relative;
+    background: #000000;
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+}
+
+.cover:hover {
+    opacity: .4;
+}
+
+@media (min-width: 768px) {
+    .cover {
+        margin-top: 100px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+@import url(../intro/__title/intro__title.css);
+@import url(../intro/__text/intro__text.css);
+@import url(../intro/__text-accent/intro__text-accent.css);
+
+.intro {
+    width: calc(100% - 2em);
+    max-width: 74em;
+    margin: 64px auto 0;
+}
+
+@media (min-width: 475px) {
+    .intro {
+        width: calc(100% - 3em);
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro {
+        width: calc(100% - 6em);
+    }
+}
+
+@media (min-width: 1280px) {
+    .intro {
+        margin-left: 148px;
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .intro {
+        margin-left: 228px;
+    }
+}
+
+

@@ -1,0 +1,17 @@
+@import url(../__lang/_active/header__lang_active.css);
+
+.header__lang { 
+  list-style: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-weight: normal;
+  font-size: 1.125em;
+  margin: 21px 0 0 16px;
+}
+
+@media (min-width: 768px) {
+  .header__lang {
+    font-size: 1.5em;
+    margin-top: 36px;
+  }
+}
