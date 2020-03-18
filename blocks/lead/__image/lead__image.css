@@ -1,5 +1,6 @@
 .lead__image {
   width: 100%;
+  min-height: 219px;
   display: block;
   margin: 32px auto 0;
 }

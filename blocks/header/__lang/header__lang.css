@@ -1,5 +1,3 @@
-@import url(../__lang/_active/header__lang_active.css);
-
 .header__lang { 
   list-style: none;
   display: inline-block;
@@ -7,6 +5,8 @@
   font-weight: normal;
   font-size: 1.125em;
   margin: 21px 0 0 16px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {

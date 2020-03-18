@@ -13,9 +13,9 @@
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
     .place__title {
-        font-size: 4.5em;
+        font-size: 72px;
         line-height: 65px;
     }
 }

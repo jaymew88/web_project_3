@@ -5,16 +5,16 @@
    @import url(../place/__url-heading/place__url-heading.css);
    @import url(../place/__url/place__url.css);
    @import url(../place/__container/place__container.css);
+   @import url(../place/__list/place__list.css);
 
 
 .place {
     margin: 0 auto 65px;
-    max-width: 984px;
 }
 
 @media (min-width: 768px) {
     .place {
-        width: calc(100% - 3rem); 
+        width: 720px; 
         margin-bottom: 80px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -28,20 +28,15 @@
 
 @media (min-width: 1024px) {
     .place {
-        width: calc(100% - 6em); 
+        width: 928px;
         margin-top: 102px;
-    }
-}
-
-@media (min-width: 1100) {
-    .place {
-       width: calc(100% - 10em);
     }
 }
 
 @media (min-width: 1280px) {
     .place {
         margin-top: 72px;
+        max-width: 984px;
     }
 } 
 

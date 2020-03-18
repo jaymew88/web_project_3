@@ -7,6 +7,7 @@
 @import url(../video/__duration/video__duration.css);
 @import url(../video/__title/video__title.css);
 @import url(../video/__subtitle/video__subtitle.css);
+@import url(../video/__link/video__link.css);
 
 .video {
     width: calc(100% - 2em);

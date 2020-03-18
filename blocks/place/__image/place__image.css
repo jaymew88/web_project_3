@@ -3,15 +3,21 @@
     width: 100%;
 }
 
-@media (min-width: 475px) and (max-width: 767px) {
-    .place__image {
-        width: 60vw;
-    }
-}
-
 @media (min-width: 768px) {
     .place__image {
        grid-area: image; 
-       max-width: 460px;
+       width: 340px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .place__image {
+        width: 440px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .place__image {
+        width: 460px;
     }
 }

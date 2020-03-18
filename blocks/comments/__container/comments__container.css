@@ -1,6 +1,8 @@
 .comments__container {
   max-width: 24em;
   margin: 0 auto;
+  list-style: none;
+  padding: 0;
 }
 
 @media (min-width: 1024px) {
