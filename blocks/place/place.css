@@ -9,13 +9,13 @@
 
 
 .place {
-    margin: 0 auto 65px;
+    margin: 0 auto 60px;
 }
 
 @media (min-width: 768px) {
     .place {
         width: 720px; 
-        margin-bottom: 80px;
+        margin-bottom: 80px;  /* per design, 80px for 768px wide is correct */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, auto); 
@@ -29,13 +29,13 @@
 @media (min-width: 1024px) {
     .place {
         width: 928px;
-        margin-top: 102px;
+        margin-bottom: 102px;
     }
 }
 
 @media (min-width: 1280px) {
     .place {
-        margin-top: 72px;
+        margin-bottom: 72px;
         max-width: 984px;
     }
 } 

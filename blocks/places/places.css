@@ -1,3 +1,23 @@
+@import url(../places/_list/places__list.css);
+
 .places {
     margin: 64px auto 0;
+}
+
+@media (min-width: 768px) {
+    .places {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .places {
+        margin-top: 126px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .places {
+        margin-top: 95px;
+    }
 }

@@ -1,4 +1,4 @@
-.content-row__text {
+.intro__text {
   font-weight: normal;
   font-size: 1em;
   line-height: 27px;
@@ -6,7 +6,7 @@
 }
 
 @media (min-width: 768px) {
-  .content-row__text {
+  .intro__text {
     font-size: 0.875em;
     line-height: 24px;
   }

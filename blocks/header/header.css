@@ -4,13 +4,13 @@
 .header {
     width: 90%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
 @media (min-width: 1280px) {
     .header {
-        width: 74em;
+        width: 1184px;
     }
 }
 
