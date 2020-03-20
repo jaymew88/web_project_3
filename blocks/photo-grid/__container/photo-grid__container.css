@@ -5,5 +5,11 @@
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(var(--auto-grid-min-size, 15rem), 1fr));;
-  grid-gap: 1rem;
+  grid-gap: 8px;
 }
+@media (min-width: 375px) {
+  .photo-grid__container {
+    grid-gap: 16px;
+  }
+}
+

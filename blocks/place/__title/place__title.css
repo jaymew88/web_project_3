@@ -3,12 +3,13 @@
     font-size: 2em;
     line-height: 35px;
     margin: 0 0 32px 16px;
+    max-width: 460px;
 }
 
 @media (min-width: 768px) {
     .place__title {
         font-size: 2.625em;
-        margin: 10px 0 40px;
+        margin: 0 0 40px;
         grid-area: title;
     }
 }
@@ -17,5 +18,11 @@
     .place__title {
         font-size: 72px;
         line-height: 65px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .place__title {
+        margin-bottom: 60px;
     }
 }

@@ -1,7 +1,7 @@
-@import url(../cover/__wrapper/cover__wrapper.css);
 @import url(../cover/__image-bg/cover__image-bg.css);
 @import url(../cover/__title/cover__title.css);
 @import url(../cover/__subtitle/cover__subtitle.css);
+@import url(../cover/__wrapper/cover__wrapper.css);
 
 .cover {
     max-width: 74em;

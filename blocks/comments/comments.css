@@ -3,11 +3,26 @@
 .comments {
     margin: 72px 16px 0;
 }
+
 @media (min-width: 768px) {
     .comments {
         margin-top: 110px;
     }
 }
+
+@media (min-width: 1024px) {
+    .comments {
+     margin: 82px 48px 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .comments {
+        width: 1184px;
+        margin: 102px auto 0;
+    }
+}
+
 
 
 

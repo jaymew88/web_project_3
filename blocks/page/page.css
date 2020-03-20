@@ -14,10 +14,9 @@
   min-width: 320px;
   max-width: 1440px; 
   margin: 0 auto;
-  padding: 0;
+  padding: 21px 0 22px 0;
   font-family: Inter, Arial, Helvetica, sans-serif;
   color: #FFFFFF;
-  background-color: #2A2C2F;
   overflow: hidden;
   text-rendering: optimizeLegibility; 
   -webkit-font-smoothing: antialiased;
@@ -26,3 +25,16 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
+
+@media (min-width: 768px) {
+  .page {
+    padding: 36px 0 24px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page {
+    padding-bottom: 48px;
+  }
+}
+

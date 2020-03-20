@@ -5,6 +5,10 @@
     margin: 24px 16px 0;
 }
 
+.place__paragraph:last-child {
+    margin-bottom: 0;
+}
+
 @media (min-width: 768px) {
     .place__paragraph {
         font-weight: normal;
@@ -12,4 +16,10 @@
         line-height: 30px;
         margin: 0 0 40px; 
     } 
+}
+
+@media (min-width: 1024px) {
+    .place__paragraph {
+        margin-bottom: 30px;
+    }
 }

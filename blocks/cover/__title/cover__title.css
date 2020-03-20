@@ -2,24 +2,27 @@
   font-weight: 900;
   font-size: 2em;
   text-align: center;
-  margin: 64px auto 0; 
+  height: 72px;
+  margin: 0 0 7px;
+  /*margin: 64px auto 0; */
 }
 
 @media (min-width: 768px) {
   .cover__title {
       font-size: 4.5em;
-      margin-top: 165px;
+      margin-bottom: 127px;
+      height: auto;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .cover__title {
-      margin-top: 227px;
+      margin-bottom: 160px;
   }
 }
 
 @media (min-width: 1280px) {
   .cover__title {
-      margin-top: 274px;
+     margin-bottom: 130px;
   }
 }

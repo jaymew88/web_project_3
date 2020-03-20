@@ -3,7 +3,7 @@
 @import url(../comment/__author/comment__author.css);
 
 .comment {
-    margin: 0 auto 48px; 
+    margin: 0 0 48px; 
     display: flex;
     flex-direction: column; 
 }
@@ -21,8 +21,12 @@
 @media (min-width: 1024px) {
     .comment {
         justify-content: flex-start;
-        margin: 65px 9px 0;
+        margin: 65px 18px 0 0;
         width: calc(100% / 3);
+    }
+
+    .comment:last-of-type {
+        margin-right: 0;
     }
 }
 

@@ -4,3 +4,9 @@
   color: #ffffff;
 }
 
+/*@media (min-width: 1024px) and (max-width: 1279px) {
+  .footer__link {
+    margin-left: 26px;
+  }
+}
+*/

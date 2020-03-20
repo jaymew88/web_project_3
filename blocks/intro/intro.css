@@ -5,27 +5,26 @@
 @import url(../intro/__list-accent/intro__list-accent.css);
 
 .intro {
-    width: calc(100% - 2em);
-    max-width: 74em;
-    margin: 64px auto 0;
+    margin: 64px 16px 0;
 }
 
-@media (min-width: 475px) {
+@media (min-width: 768px) {
     .intro {
-        width: calc(100% - 3em);
+        margin-left: 24px;
+        margin-right: 24px;
     }
 }
 
 @media (min-width: 1024px) {
     .intro {
-        width: calc(100% - 6em);
+        margin-left: 48px;
+        margin-top: 80px;
     }
 }
 
 @media (min-width: 1280px) {
     .intro {
         margin-left: 148px;
-        max-width: 60%;
     }
 }
 

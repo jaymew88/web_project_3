@@ -4,17 +4,31 @@
 
 .footer {
     max-width: 74em;
-    padding-bottom: 24px;
 }
 
 @media (min-width: 768px) {
     .footer {
         display: flex;
         justify-content: space-between;
-        margin: 102px auto 0;
-        width: 90%;
+        margin: 102px 23px 0;
+        min-width: 90%;
+        height: 23px;
     }
 }
+
+@media (min-width: 1024px) {
+    .footer {
+        min-width: 887px;
+        margin: 160px 23px 0 89px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer {
+        margin: 160px auto 0;
+    }
+}
+
 
 
 

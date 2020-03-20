@@ -1,12 +1,10 @@
 .logo {
     width: 156px;
     height: 36px;
-    margin: 21px 0 0 0;
 }
 
 @media (min-width: 768px) {
     .logo {
-        margin-top: 36px;
         width: 196px; 
         height: 46px;
     }

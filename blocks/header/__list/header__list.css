@@ -1,6 +1,10 @@
 .header__list {
   list-style: none;
+  align-items: center;
   padding: 0;
   margin: 0;
   display: flex;
+  font-weight: normal;
+  font-size: 1.125em;
+  line-height: 17px;
 }

@@ -1,11 +1,10 @@
-/* DONE!!!!! Double check all measurments!!!! */
 @import url(../lead/__title/lead__title.css);
 @import url(../lead/__subtitle/lead__subtitle.css);
 @import url(../lead/__image/lead__image.css);
 @import url(../lead/__caption/lead__caption.css);
 
 .lead {
-    margin: 0 auto;
+    margin: 48px auto 0;
     text-align: center;
     overflow: hidden;
 }
